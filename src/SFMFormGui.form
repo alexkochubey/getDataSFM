@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SFMFormGui">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="51" y="20" width="1235" height="545"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="95287" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="6fe5" binding="jpSFM" layout-manager="GridLayoutManager" row-count="12" column-count="33" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="SFM"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="66741" binding="SFMCORE02ScrollPane">
+                <constraints>
+                  <grid row="9" column="7" row-span="2" col-span="26" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="2a4c7" class="javax.swing.JTextArea" binding="textArea3" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <lineWrap value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="181bf" class="javax.swing.JButton" binding="button1" default-binding="true">
+                <constraints>
+                  <grid row="8" column="29" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <scrollpane id="43f5d" binding="SFMCORE01ScrollPane">
+                <constraints>
+                  <grid row="1" column="7" row-span="7" col-span="26" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="b5f6f" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <lineWrap value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="b230d" class="javax.swing.JButton" binding="button2" default-binding="true">
+                <constraints>
+                  <grid row="0" column="30" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <scrollpane id="eaccc" binding="tiberoScrollPane">
+                <constraints>
+                  <grid row="1" column="2" row-span="10" col-span="5" vsize-policy="7" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="300" height="-1"/>
+                    <maximum-size width="500" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="5d100" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <lineWrap value="true"/>
+                      <maximumSize width="2147483647" height="2147483647"/>
+                      <minimumSize width="82" height="17"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="1f83a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Tibero"/>
+                </properties>
+              </component>
+              <component id="ea406" class="javax.swing.JButton" binding="button3" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="d3f84" class="javax.swing.JLabel" binding="SFMCORE_02">
+                <constraints>
+                  <grid row="8" column="7" row-span="1" col-span="15" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="SFMCORE_02"/>
+                </properties>
+              </component>
+              <component id="e7c0a" class="javax.swing.JLabel" binding="SFMCORE_01">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="15" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="SFMCORE_01"/>
+                </properties>
+              </component>
+              <component id="677d4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="10"/>
+                  <text value="Заметки"/>
+                </properties>
+              </component>
+              <scrollpane id="c6134" binding="notesScrollPane">
+                <constraints>
+                  <grid row="1" column="0" row-span="10" col-span="2" vsize-policy="7" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="300" height="-1"/>
+                    <maximum-size width="400" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="b405f" class="javax.swing.JTextArea" binding="notesArea">
+                    <constraints/>
+                    <properties>
+                      <editable value="true"/>
+                      <lineWrap value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <grid id="c2723" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="11" column="7" row-span="1" col-span="2" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="6c8f1" class="javax.swing.JTextField" binding="TextField2">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                        <maximum-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="2018-08-20 11:09:00"/>
+                    </properties>
+                  </component>
+                  <component id="454c9" class="javax.swing.JTextField" binding="TextField1">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                        <maximum-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="2018-08-20 11:06:00"/>
+                    </properties>
+                  </component>
+                  <component id="61978" class="javax.swing.JButton" binding="runGetDataButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="RunGetData"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="6b62c" binding="jpInfodiod" layout-manager="GridLayoutManager" row-count="9" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Infodiod"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="744a7" class="javax.swing.JButton" binding="connectButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="UploadToInfodiod"/>
+                  <toolTipText value="Выгружает в Infidiod выбранные файлы"/>
+                </properties>
+              </component>
+              <scrollpane id="cbc6a">
+                <constraints>
+                  <grid row="0" column="2" row-span="9" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="7fa1a" class="javax.swing.JTree" binding="treeSfmLogs">
+                    <constraints/>
+                    <properties>
+                      <editable value="true"/>
+                      <largeModel value="false"/>
+                    </properties>
+                    <clientProperties>
+                      <JTree.lineStyle class="java.lang.String" value=""/>
+                      <html.disable class="java.lang.Boolean" value="false"/>
+                    </clientProperties>
+                  </component>
+                </children>
+              </scrollpane>
+              <hspacer id="40d8">
+                <constraints>
+                  <grid row="1" column="3" row-span="7" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="fff36" class="javax.swing.JButton" binding="bTree">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Refresh"/>
+                </properties>
+              </component>
+              <component id="49f0c" class="javax.swing.JRadioButton" binding="rbSfm0101">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <selected value="true"/>
+                  <text value="sfm0101"/>
+                </properties>
+              </component>
+              <component id="35617" class="javax.swing.JRadioButton" binding="rbSfm0102">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <selected value="false"/>
+                  <text value="sfm0102"/>
+                </properties>
+              </component>
+              <component id="6cb42" class="javax.swing.JRadioButton" binding="rbSfm0103">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <selected value="false"/>
+                  <text value="sfm0103"/>
+                </properties>
+              </component>
+              <component id="f7002" class="javax.swing.JRadioButton" binding="rbSfm0201">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <selected value="false"/>
+                  <text value="sfm0201"/>
+                </properties>
+              </component>
+              <component id="48bdd" class="javax.swing.JRadioButton" binding="rbSfm0202">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <selected value="false"/>
+                  <text value="sfm0202"/>
+                </properties>
+              </component>
+              <component id="d8bc" class="javax.swing.JRadioButton" binding="rbSfm0203">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <selected value="false"/>
+                  <text value="sfm0203"/>
+                </properties>
+              </component>
+              <vspacer id="181a2">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <grid id="daead" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="25d89" class="javax.swing.JButton" binding="button4" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <enabled value="false"/>
+                      <text value="Button"/>
+                    </properties>
+                  </component>
+                  <vspacer id="bed6e">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="7b07" binding="jpSPP" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="SPP"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="77299" class="javax.swing.JButton" binding="btnUploadDownloadSPP">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Upload/Download"/>
+                </properties>
+              </component>
+              <scrollpane id="b2a15">
+                <constraints>
+                  <grid row="0" column="1" row-span="6" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="1789d" class="javax.swing.JTree" binding="treeSPP">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <hspacer id="bac99">
+                <constraints>
+                  <grid row="2" column="2" row-span="4" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="126" height="11"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <component id="f87a5" class="javax.swing.JButton" binding="refreshButtonSPP">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Refresh"/>
+                </properties>
+              </component>
+              <component id="7f7e" class="javax.swing.JRadioButton" binding="rbSPP0101">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <selected value="true"/>
+                  <text value="ec01-spapp01"/>
+                </properties>
+              </component>
+              <component id="f647e" class="javax.swing.JRadioButton" binding="rbSPP0201">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ec02-spapp01"/>
+                </properties>
+              </component>
+              <component id="28421" class="javax.swing.JRadioButton" binding="rbSPP0101UAT">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="msk1-sppapp02"/>
+                </properties>
+              </component>
+              <vspacer id="39c99">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="3bc5b" binding="jpEncryptPass" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="EncryptPass"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bd56f" class="javax.swing.JButton" binding="btnEncrPass">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="EncryptPass"/>
+                </properties>
+              </component>
+              <vspacer id="6f80">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="8d606" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="-1"/>
+                    <maximum-size width="-1" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <hspacer id="54620">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="d4c58" class="javax.swing.JTextField" binding="jtEncrypt">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <text value="NEW PASSWORD"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="rbGroupSFM">
+      <member id="49f0c"/>
+      <member id="49f0c"/>
+      <member id="35617"/>
+      <member id="6cb42"/>
+      <member id="f7002"/>
+      <member id="48bdd"/>
+      <member id="d8bc"/>
+    </group>
+    <group name="btnGroupSPP">
+      <member id="7f7e"/>
+      <member id="7f7e"/>
+      <member id="f647e"/>
+      <member id="28421"/>
+    </group>
+  </buttonGroups>
+</form>
